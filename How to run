@@ -1,0 +1,3 @@
+In the terminal open the folder where the files are saved and run:
+$ sudo ./'Update & Upgrade' 
+$ sudo ./'Update & Upgrade  GUIX'
