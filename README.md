@@ -21,7 +21,7 @@ Atualizar; lista repo e software Ubuntu:
  
   $ sudo ./'Update & Upgrade' 
  
-Atualizar; lista repo e software Pacote Guix:
+Atualizar Pacote Guix:
   
   $ sudo ./'Update & Upgrade  GUIX'
  
