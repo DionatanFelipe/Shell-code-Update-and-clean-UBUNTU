@@ -19,7 +19,7 @@ $ sudo ./'Update & Upgrade  GUIX'
  
  $ sudo ./'CleanCache(UBUNTU SNAP_APT ONLY)' 
  
- With Platpak install:
+ With Flatpak install:
  
  $ 'CleanCache(UBUNTU APT, SNAP and FLATPAK)'
  
