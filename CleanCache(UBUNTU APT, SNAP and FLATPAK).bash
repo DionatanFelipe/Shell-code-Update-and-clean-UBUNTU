@@ -4,4 +4,4 @@
 
  sudo apt clean && sudo apt autoremove && 
  sudo rm -rf /var/cache/snapd && 
- sudo flatpak uninstall --unused 
+ flatpak uninstall --unused 
