@@ -24,7 +24,10 @@ $ sudo ./'Update & Upgrade  GUIX'
  $ sudo ./'CleanCache(UBUNTU APT, SNAP and FLATPAK)'
  
  
+ Ps: Need run how a program;
  
+If not run: Properties -> Permissions -> Allow executing file as program or $ chmod +x NAME ARCHIVE.bash
+
   
   # Shell-code-Atualização
 
@@ -54,4 +57,7 @@ $ sudo ./'CleanCache(UBUNTU SNAP_APT ONLY)'
 Se possui o pacote Flatpak instalador: 
  
 $ 'CleanCache(UBUNTU APT, SNAP and FLATPAK)'
+
+Obs: É necessário rodar como progrma.
+caso não execute: Propriedades -> Permissões -> Executar ■ Permitir execução como um program ou $ chmod +x NOME DO ARQUIVO.bash
  
