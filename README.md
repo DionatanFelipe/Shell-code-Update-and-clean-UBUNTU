@@ -16,3 +16,4 @@ Two little shell code to update Linux Ubuntu and Packages GNU Guix.
   $ sudo ./'Update & Upgrade' 
  Pacote Guix:
   $ sudo ./'Update & Upgrade  GUIX'
+ 
