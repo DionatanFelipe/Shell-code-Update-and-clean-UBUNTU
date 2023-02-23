@@ -11,6 +11,8 @@ Update e upgrade Guix package:
 
 $ sudo ./'Update & Upgrade  GUIX'
 
+
+
 # Shell-code-Clean
 
  IF not have the flatpak install
@@ -18,6 +20,9 @@ $ sudo ./'Update & Upgrade  GUIX'
  
  With Platpak install:
  $ 'CleanCache(UBUNTU APT, SNAP and FLATPAK)'
+ 
+ 
+ 
   
   # Shell-code-Atualização
 
@@ -33,6 +38,7 @@ Atualizar; lista repo e software Ubuntu:
   Atualizar Pacote Guix:
   
   $ sudo ./'Update & Upgrade  GUIX'
+
 
   
 # Shell-code-Limpeza
