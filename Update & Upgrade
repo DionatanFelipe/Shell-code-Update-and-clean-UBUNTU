@@ -1,0 +1,3 @@
+#!/bin/bash
+#Comando para atualizar sistema Ubuntu com atualização automática caso haja.
+	sudo apt update && apt upgrade -y
