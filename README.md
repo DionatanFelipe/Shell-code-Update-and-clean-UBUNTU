@@ -15,10 +15,12 @@ $ sudo ./'Update & Upgrade  GUIX'
 
 # Shell-code-Clean
 
- IF not have the flatpak install
+ IF not have the flatpak install:
+ 
  $ sudo ./'CleanCache(UBUNTU SNAP_APT ONLY)' 
  
  With Platpak install:
+ 
  $ 'CleanCache(UBUNTU APT, SNAP and FLATPAK)'
  
  
