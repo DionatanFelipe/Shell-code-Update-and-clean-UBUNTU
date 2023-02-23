@@ -1,4 +1,5 @@
 #!/bin/bash
+#clean cache
 # Limpeza de sistema
 
  sudo apt clean && sudo apt autoremove && 
