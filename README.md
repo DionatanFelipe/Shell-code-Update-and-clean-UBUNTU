@@ -11,7 +11,8 @@ Update e upgrade Guix package:
 
 $ sudo ./'Update & Upgrade  GUIX'
 
- -----------
+# Shell-code-Atualização
+
  
 #Pequeno código criado em shell para atualizar o sistema Ubuntu, e o pacote GUIX.
   
