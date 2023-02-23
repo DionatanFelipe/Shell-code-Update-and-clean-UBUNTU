@@ -17,11 +17,11 @@ $ sudo ./'Update & Upgrade  GUIX'
   
  Abra o terminal na pasta onde está salvo os arquivos e execute:  
  
-Atualizar Ubuntu:
+Atualizar; lista repo e software Ubuntu:
  
   $ sudo ./'Update & Upgrade' 
  
-Atualizar Pacote Guix:
+Atualizar; lista repo e software Pacote Guix:
   
   $ sudo ./'Update & Upgrade  GUIX'
  
