@@ -36,6 +36,8 @@ Atualizar Pacote Guix:
   
 # Shell-code-Limpeza
 
+ Abra o terminal na pasta onde está salvo os arquivos e execute:  
+
 Sem o pacote Flatpak instalado:
 
 $ sudo ./'CleanCache(UBUNTU SNAP_APT ONLY)' 
