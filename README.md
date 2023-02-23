@@ -21,7 +21,7 @@ $ sudo ./'Update & Upgrade  GUIX'
  
  With Flatpak install:
  
- $ 'CleanCache(UBUNTU APT, SNAP and FLATPAK)'
+ $ sudo ./'CleanCache(UBUNTU APT, SNAP and FLATPAK)'
  
  
  
