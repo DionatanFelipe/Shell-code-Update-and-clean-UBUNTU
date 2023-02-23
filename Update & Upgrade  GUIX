@@ -1,0 +1,5 @@
+#!/bin/bash
+# Comando para atualizar pacotes GUIX
+	guix pull &&
+	sudo -i guix pull &&
+	systemctl restart guix-daemon.service
