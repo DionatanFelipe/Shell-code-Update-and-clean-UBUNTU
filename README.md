@@ -3,11 +3,11 @@ Two little shell code to update Linux Ubuntu and Packages GNU Guix.
  
  In the terminal open the folder where the files are saved and run:
  
- Ubuntu:
+ Update Ubuntu:
 
 $ sudo ./'Update & Upgrade' 
 
-Guix package:
+Update Guix package:
 
 $ sudo ./'Update & Upgrade  GUIX'
  
@@ -17,11 +17,11 @@ $ sudo ./'Update & Upgrade  GUIX'
   
  Abra o terminal na pasta onde está salvo os arquivos e execute:  
  
- Ubuntu:
+Atualizar Ubuntu:
  
   $ sudo ./'Update & Upgrade' 
  
- Pacote Guix:
+Atualizar Pacote Guix:
   
   $ sudo ./'Update & Upgrade  GUIX'
  
