@@ -29,7 +29,7 @@ $ sudo ./'Update & Upgrade  GUIX'
   # Shell-code-Atualização
 
  
-#Pequeno código criado em shell para atualizar o sistema Ubuntu, e o pacote GUIX.
+#Pequeno código criado em shell para atualizar o sistema Ubuntu e o pacote GUIX.
   
  Abra o terminal na pasta onde está salvo os arquivos e execute:  
  
