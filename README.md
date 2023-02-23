@@ -56,7 +56,7 @@ $ sudo ./'CleanCache(UBUNTU SNAP_APT ONLY)'
  
 Se possui o pacote Flatpak instalador: 
  
-$ 'CleanCache(UBUNTU APT, SNAP and FLATPAK)'
+$sudo ./'CleanCache(UBUNTU APT, SNAP and FLATPAK)'
 
 Obs: É necessário rodar como progrma.
 caso não execute: Propriedades -> Permissões -> Executar ■ Permitir execução como um program ou $ chmod +x NOME DO ARQUIVO.bash
