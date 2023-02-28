@@ -1,7 +1,9 @@
 #!/bin/bash
-#clean cache
-# Limpeza de sistema
+#clean cache and trash
+# Limpeza de sistema e lixeira.
 
- sudo apt clean && sudo apt autoremove && 
+
+ sudo apt clean && sudo apt autoremove &&
+ sudo rm -rf ~/.local/share/Trash/* &&
  sudo rm -rf /var/cache/snapd && 
- flatpak uninstall --unused 
+ flatpak uninstall --unused -y
