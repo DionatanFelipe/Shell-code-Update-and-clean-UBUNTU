@@ -1,0 +1,10 @@
+#!/bin/bash
+# Script para atualizar sistema Ubuntu com atualização automática caso haja.
+
+# Atualiza a lista de pacotes
+#Update list of packges
+sudo /usr/bin/apt update
+
+# Atualiza os pacotes (incluindo atualizações automáticas)
+#Update packges
+sudo /usr/bin/apt upgrade -y
