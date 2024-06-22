@@ -5,7 +5,7 @@ Two little shell code to update Linux Ubuntu and Packages GNU Guix.
  
  Update e upgrade Ubuntu:
 
-$ sudo ./'Update & Upgrade' 
+$ sudo ./'Update&Upgrade' 
 
 Update e upgrade Guix package:
 
@@ -38,7 +38,7 @@ If not run: Properties -> Permissions -> Allow executing file as program or $ ch
  
 Atualizar; lista repo e software Ubuntu:
  
-  $ sudo ./'Update & Upgrade' 
+  $ sudo ./'Update&Upgrade' 
   
   Atualizar Pacote Guix:
   
