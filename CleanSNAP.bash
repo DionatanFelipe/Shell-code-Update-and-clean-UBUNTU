@@ -1,6 +1,6 @@
 #!/bin/bash
 # Script para limpeza do sistema
-#Clean Snap
+
 # Limpar cache do APT
-sudo apt clean
-sudo apt autoremove -y
+/usr/bin/sudo /usr/bin/apt clean
+/usr/bin/sudo /usr/bin/apt autoremove -y
