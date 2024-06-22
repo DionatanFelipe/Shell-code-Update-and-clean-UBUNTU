@@ -1,0 +1,19 @@
+#!/bin/bash
+# Script para limpeza do sistema
+
+# Limpar cache do APT
+sudo apt clean
+sudo apt autoremove -y
+
+# Limpar lixeira do usuário
+rm -rf /home/alphaai/.local/share/Trash/*
+
+# Limpar cache do Snap
+sudo rm -rf /var/cache/snapd
+
+# Desinstalar flatpaks não utilizados
+flatpak uninstall --unused -y
+
+# Verificar atualizações disponíveis para snaps
+sudo snap refresh --list
+
