@@ -9,7 +9,7 @@ $ sudo ./'Update&Upgrade'
 
 Update e upgrade Guix package:
 
-$ sudo ./'Update & Upgrade  GUIX'
+$ sudo ./'Update&UpgradeGUIXX'
 
 
 
@@ -42,7 +42,7 @@ Atualizar; lista repo e software Ubuntu:
   
   Atualizar Pacote Guix:
   
-  $ sudo ./'Update & Upgrade  GUIX'
+  $ sudo ./'Update&UpgradeGUIX'
 
 
   
