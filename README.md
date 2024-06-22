@@ -24,7 +24,7 @@ $ sudo ./'Update & Upgrade  GUIX'
  $ sudo ./'CleanCache(UBUNTU APT, SNAP and FLATPAK)'
  
  
- Ps: Need run how a program;
+ Ps: Need run how a program and change user name folder inside of code.
  
 If not run: Properties -> Permissions -> Allow executing file as program or $ chmod +x NAME ARCHIVE.bash
 
@@ -58,7 +58,6 @@ Se possui o pacote Flatpak instalador:
  
 $sudo ./'CleanCache(UBUNTU APT, SNAP and FLATPAK)'
 
-Obs: É necessário rodar como progrma.
-
+Obs: É necessário rodar como programa.  Mude o nome da pasta de usuario para a sua dentro do codigo.
 caso não execute: Propriedades -> Permissões -> Executar ■ Permitir execução como um program ou $ chmod +x NOME DO ARQUIVO.bash
  
