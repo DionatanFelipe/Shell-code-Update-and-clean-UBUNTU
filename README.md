@@ -1,63 +1,143 @@
-# Shell-code-Update
-Two little shell code to update Linux Ubuntu and Packages GNU Guix.
- 
- In the terminal open the folder where the files are saved and run:
- 
- Update e upgrade Ubuntu:
+Aqui está o conteúdo do arquivo `README.md`, primeiro em português e depois em inglês, descrevendo os scripts fornecidos:
 
-$ sudo ./'Update&Upgrade' 
+---
 
-Update e upgrade Guix package:
+### Scripts
 
-$ sudo ./'Update&UpgradeGUIXX'
+#### 1. limpeza.bash
 
+**Descrição:**
+Script para realizar a limpeza do sistema.
 
+**Funcionalidades:**
+- Limpa o cache do APT.
+- Limpa a lixeira do usuário (substitua "USUARIO" pelo nome da pasta do usuário).
+- Limpa o cache do Snap.
+- Desinstala flatpaks não utilizados.
 
-# Shell-code-Clean
+#### 2. Update&UpgradeTotal.bash
 
- If not have the flatpak install:
- 
- $ sudo ./'CleanCache(UBUNTU SNAP_APT ONLY)' 
- 
- With Flatpak install:
- 
- $ sudo ./'CleanCache(UBUNTU APT, SNAP and FLATPAK)'
- 
- 
- Ps: Need run how a program and change user name folder inside of code.
- 
-If not run: Properties -> Permissions -> Allow executing file as program or $ chmod +x NAME ARCHIVE.bash
+**Descrição:**
+Script para atualização e upgrade total do sistema: APT, Snap e Flatpak.
 
-  
-  # Shell-code-Atualização
+**Funcionalidades:**
+- Atualiza os pacotes do APT.
+- Atualiza snaps.
+- Atualiza flatpaks.
+- Atualiza pacotes Guix.
 
- 
-#Pequeno código criado em shell para atualizar o sistema Ubuntu e o pacote GUIX.
-  
- Abra o terminal na pasta onde está salvo os arquivos e execute:  
- 
-Atualizar; lista repo e software Ubuntu:
- 
-  $ sudo ./'Update&Upgrade' 
-  
-  Atualizar Pacote Guix:
-  
-  $ sudo ./'Update&UpgradeGUIX'
+#### 3. Update&UpgradeGUIX.bash
 
+**Descrição:**
+Script para atualizar pacotes Guix.
 
-  
-# Shell-code-Limpeza
+**Funcionalidades:**
+- Atualiza o repositório Guix.
+- Reinicia o serviço guix-daemon.
 
- Abra o terminal na pasta onde está salvo os arquivos e execute:  
+#### 4. Update&Upgrade.bash
 
-Sem o pacote Flatpak instalado:
+**Descrição:**
+Script para atualizar o sistema Ubuntu, com atualização automática caso haja.
 
-$ sudo ./'CleanCache(UBUNTU SNAP_APT ONLY)' 
- 
-Se possui o pacote Flatpak instalador: 
- 
-$sudo ./'CleanCache(UBUNTU APT, SNAP and FLATPAK)'
+**Funcionalidades:**
+- Atualiza a lista de pacotes do sistema.
+- Realiza o upgrade dos pacotes instalados.
 
-Obs: É necessário rodar como programa.  Mude o nome da pasta de usuario para a sua dentro do codigo.
-caso não execute: Propriedades -> Permissões -> Executar ■ Permitir execução como um program ou $ chmod +x NOME DO ARQUIVO.bash
- 
+#### 5. UbuntuSnapFlatpak.bash
+
+**Descrição:**
+Script para atualização e upgrade total: APT, Snap e Flatpak.
+
+**Funcionalidades:**
+- Atualiza os pacotes do APT.
+- Atualiza snaps.
+- Atualiza flatpaks.
+
+#### 6. CleanSNAP.bash
+
+**Descrição:**
+Script para limpar o sistema.
+
+**Funcionalidades:**
+- Limpa o cache do APT.
+
+#### 7. Update&UpgradeGUIX.bash
+
+**Descrição:**
+Script para atualizar pacotes Guix.
+
+**Funcionalidades:**
+- Atualiza o repositório Guix.
+- Reinicia o serviço guix-daemon.
+
+---
+
+### Scripts
+
+#### 1. limpeza.bash
+
+**Description:**
+Script to clean up the system.
+
+**Features:**
+- Cleans APT cache.
+- Empties user's trash (replace "USUARIO" with the user's folder name).
+- Cleans Snap cache.
+- Uninstalls unused flatpaks.
+
+#### 2. Update&UpgradeTotal.bash
+
+**Description:**
+Script for total system update and upgrade: APT, Snap, and Flatpak.
+
+**Features:**
+- Updates APT packages.
+- Updates snaps.
+- Updates flatpaks.
+- Updates Guix packages.
+
+#### 3. Update&UpgradeGUIX.bash
+
+**Description:**
+Script to update Guix packages.
+
+**Features:**
+- Updates Guix repository.
+- Restarts guix-daemon service.
+
+#### 4. Update&Upgrade.bash
+
+**Description:**
+Script to update Ubuntu system, with automatic upgrade if available.
+
+**Features:**
+- Updates system package list.
+- Upgrades installed packages.
+
+#### 5. UbuntuSnapFlatpak.bash
+
+**Description:**
+Script for total update and upgrade: APT, Snap, and Flatpak.
+
+**Features:**
+- Updates APT packages.
+- Updates snaps.
+- Updates flatpaks.
+
+#### 6. CleanSNAP.bash
+
+**Description:**
+Script to clean the system.
+
+**Features:**
+- Cleans APT cache.
+
+#### 7. Update&UpgradeGUIX.bash
+
+**Description:**
+Script to update Guix packages.
+
+**Features:**
+- Updates Guix repository.
+- Restarts guix-daemon service.
