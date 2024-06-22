@@ -1,6 +1,3 @@
-Aqui está o conteúdo do arquivo `README.md`, primeiro em português e depois em inglês, descrevendo os scripts fornecidos:
-
----
 
 ### Scripts
 
